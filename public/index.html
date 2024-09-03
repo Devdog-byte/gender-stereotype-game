@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Guess Who</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game">
+        <h1>Guess Who - Gender Stereotypes Edition</h1>
+        <div id="board"></div>
+        <div id="controls">
+            <input type="text" id="questionInput" placeholder="Ask a question...">
+            <button id="askButton">Ask</button>
+            <input type="text" id="guessInput" placeholder="Make a guess...">
+            <button id="guessButton">Guess</button>
+        </div>
+        <div id="messages"></div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
